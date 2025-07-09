@@ -2,10 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-
+import ConvexClerkProvider from "@/providers/ConvexClerkProduction";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ConvexClerkProvider from "@/providers/ConvexClerkProduction";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FitroniX AI - Get Jacked",
+  title: "Fitronix AI - Get Jacked",
   description: "A modern fitness AI platform to get jacked for free.",
 };
 
